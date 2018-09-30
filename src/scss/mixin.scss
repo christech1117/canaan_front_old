@@ -1,0 +1,114 @@
+/**
+ * Section appearing animation
+ */
+@keyframes animate--fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes animate--slideInUp {
+  0% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes animate--slideInRight {
+  0% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate--slideInDown {
+  0% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes animate--slideInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+}
+
+// Note: A ".section-has-slide" class needs to be added to ".section"s with slides to make sure the animation is only triggred on the active slide.
+
+.section.active:not(.section-has-slide),
+.section.active.section-has-slide .slide.active {
+  $fullPage-scrollingSpeed: .7s; // fullPage.js scrolling transition speed
+
+  .animate--fadeIn,
+  .animate--fadeSlideInUp,
+  .animate--fadeSlideInRight,
+  .animate--fadeSlideInDown,
+  .animate--fadeSlideInLeft {
+    animation-duration: 1.5s;
+    animation-delay: $fullPage-scrollingSpeed;
+    animation-fill-mode: both;
+  }
+
+  .animate--fadeIn {
+    animation-name: animate--fadeIn;
+  }
+
+  .animate--fadeSlideInUp {
+    animation-name: animate--fadeIn, animate--slideInUp;
+  }
+
+  .animate--fadeSlideInRight {
+    animation-name: animate--fadeIn, animate--slideInRight;
+  }
+
+  .animate--fadeSlideInDown {
+    animation-name: animate--fadeIn, animate--slideInDown;
+  }
+
+  .animate--fadeSlideInLeft {
+    animation-name: animate--fadeIn, animate--slideInLeft;
+  }
+}
+
+/**
+ * Views
+ */
+/* Section 1 */
+/** Slide 1 **/
+#section-1__slide-1__card-1 {
+  transform-origin: 100% 50%;
+  transform: translateX(5%) rotateY(10deg);
+}
+
+#section-1__slide-1__card-2 {
+  transform: translate(-5%, 25%);
+}
+
+/** Slide 2 **/
+#section-1__slide-2__card-1 {
+  border-radius: 50%;
+}
+
+#section-1__slide-2__card-2 {}
+
+/* Section 2 */
+#section-2__card-1 {
+  transform: translate(5%, 25%);
+}
+
+#section-2__card-2 {
+  transform-origin: 0% 50%;
+  transform: translateX(-5%) rotateY(-10deg);
+}
+
+/**
+ * Extra
+ */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
