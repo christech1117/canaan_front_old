@@ -7,9 +7,7 @@
       <v-container fill-height fluid>
         <v-layout fill-height align-center>
           <v-flex xs12 md12 lg12 text-xs-center white--text>
-            <div class="title my-3">迦南资本致力于提供</div>
-            <div class="title my-3">专业的全球化资产配置与物业运营服务</div>
-            <div class="title my-3">深度的原汁原味的海外生活体验</div>
+            <div class="display-1">资产大航海时代的领航者</div>
           </v-flex>
         </v-layout>
       </v-container>
@@ -21,7 +19,9 @@
       <v-container fill-height fluid>
         <v-layout fill-height align-center>
           <v-flex xs12 md12 lg12 text-xs-center white--text>
-            <div class="display-1">资产大航海时代的领航者</div>
+            <div class="title my-3">迦南资本致力于提供</div>
+            <div class="title my-3">专业的全球化资产配置与物业运营服务</div>
+            <div class="title my-3">深度的原汁原味的海外生活体验</div>
           </v-flex>
         </v-layout>
       </v-container>
