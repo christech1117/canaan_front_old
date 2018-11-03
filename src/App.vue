@@ -86,7 +86,7 @@ export default {
   name: 'App',
   components: {
     NavBar,
-    FooterBar
+    FooterBar,
   },
   data() {
     return {
@@ -99,12 +99,12 @@ export default {
         { icon: 'bubble_chart', title: '海外资产配置', path: '/fund' },
         { icon: 'bubble_chart', title: '海外资产运营', path: '/hotel' },
         { icon: 'bubble_chart', title: '海外生活体验', path: '/travel' },
-        { icon: 'bubble_chart', title: '联系我们', path: '/contact' }
+        { icon: 'bubble_chart', title: '联系我们', path: '/contact' },
       ],
       miniVariant: false,
       right: true,
-      title: 'CANAAN'
+      title: 'CANAAN',
     };
-  }
+  },
 };
 </script>

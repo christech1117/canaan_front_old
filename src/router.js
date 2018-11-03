@@ -14,39 +14,39 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [{
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: About
-    },
-    {
-      path: '/fund',
-      name: 'fund',
-      component: Fund
-    },
-    {
-      path: '/hotel',
-      name: 'hotel',
-      component: Hotel
-    },
-    {
-      path: '/hotel_detail',
-      name: 'hotelDetail',
-      component: HotelDetail
-    },
-    {
-      path: '/travel',
-      name: 'travel',
-      component: Travel
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: Contact
-    }
-  ]
+    path: '/',
+    name: 'home',
+    component: Home,
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: About,
+  },
+  {
+    path: '/fund',
+    name: 'fund',
+    component: Fund,
+  },
+  {
+    path: '/hotel',
+    name: 'hotel',
+    component: Hotel,
+  },
+  {
+    path: '/hotel_detail',
+    name: 'hotelDetail',
+    component: HotelDetail,
+  },
+  {
+    path: '/travel',
+    name: 'travel',
+    component: Travel,
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact,
+  },
+  ],
 });

@@ -7,8 +7,8 @@ Vue.use(Vuetify, {
   iconfont: 'md',
   lang: {
     locales: {
-      zhHant
+      zhHant,
     },
-    current: 'zh-Hant'
-  }
+    current: 'zh-Hant',
+  },
 });
