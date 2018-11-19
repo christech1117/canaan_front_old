@@ -12,8 +12,7 @@
               flat
             >
               <v-card-text text-xs-right style="background-color: white">
-                <span class="display-1">旅</span>
-                <span class="headline font-weight-bold">行，为生活充个电</span>
+                <span class="headline font-weight-bold">旅行，为生活充个电</span>
               </v-card-text>
               <v-img
                 class="white--text"
@@ -257,7 +256,7 @@
         </v-flex>
     </v-layout>
     <v-container class="section" grid-list-md text-xs-center>
-      <v-layout row wrap>
+      <v-layout row wrap class="transition-img">
         <v-flex xs12 md12 lg12>
           <div class="title mb-4">#2018IG打卡胜地 #玩胜全球 #晋升网美系主任</div>
         </v-flex>
@@ -325,8 +324,8 @@
 <script>
 export default {
   data: () => ({
-    lorem: 'Lorem ipsum dolor sit amet, mel at clita quando. Te sit oratio vituperatoribus, nam ad ipsum posidonium mediocritatem, explicari dissentiunt cu mea. Repudiare disputationi vim in, mollis iriure nec cu, alienum argumentum ius ad. Pri eu justo aeque torquatos.'
-  })
+    lorem: 'Lorem ipsum dolor sit amet, mel at clita quando. Te sit oratio vituperatoribus, nam ad ipsum posidonium mediocritatem, explicari dissentiunt cu mea. Repudiare disputationi vim in, mollis iriure nec cu, alienum argumentum ius ad. Pri eu justo aeque torquatos.',
+  }),
 };
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->

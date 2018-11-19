@@ -11,7 +11,7 @@
         </v-img>
       </v-flex>
       <v-flex xs12 md12>
-            <v-card
+        <v-card
           flat
           tile
           class="lighten-1 white--text text-xs-center"
@@ -21,7 +21,7 @@
             <v-container grid-list-md text-xs-left>
               <v-layout row wrap>
                 <v-flex xs12 md1 lg2></v-flex>
-                <v-flex xs12 md9 lg8>
+                <v-flex xs12 md7 lg7>
                   <div class="headline mb-3">联系我们</div>
                   <div class="body-2">上海公司地址：上海市静安区静安区南京西路819号3楼133室</div>
                   <div class="body-2">　　　　　　　邮编：200041　总机号码：+86 21-58888566　传真号码：+86 21-58883586</div>
@@ -60,8 +60,8 @@ export default {
       'fab fa-twitter',
       'fab fa-google-plus',
       'fab fa-linkedin',
-      'fab fa-instagram'
-    ]
-  })
+      'fab fa-instagram',
+    ],
+  }),
 };
 </script>

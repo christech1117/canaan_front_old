@@ -29,28 +29,34 @@ html {
 
 a,
 a:focus,
-a:hover {
+a:hover,
+a:active {
   cursor: pointer;
   color: inherit;
   outline: none;
   text-decoration: none;
+  overflow: hidden;
+  .v-image {
+    transition: all 0.5s ease 0s;
+  }
+  .v-image:hover {
+    transform: scale(1.05);
+  }
 }
+.transition-img {
+  overflow: hidden;
+  .v-image {
+    transition: all 0.5s ease 0s;
+  }
+  .v-image:hover {
+    transform: scale(1.1);
+  }
+}
+
+
 
 div:focus {
   outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-a,
-a:focus,
-a:hover {
-  cursor: pointer;
-  color: inherit;
-  text-decoration: none;
 }
 
 .section {

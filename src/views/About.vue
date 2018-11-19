@@ -137,9 +137,9 @@
 export default {
   data() {
     return {
-      avatarSize: '180px'
+      avatarSize: '180px',
     };
-  }
+  },
 };
 </script>
 

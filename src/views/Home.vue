@@ -162,18 +162,18 @@
           <v-card>
             <v-img
               class="white--text"
-              height="300px"
+              height="450px"
               :src="require('@/assets/home/1_21.jpg')"
             >
               <v-container fill-height fluid>
                 <v-layout fill-height align-center>
-                  <v-flex xs12 md1 lg1></v-flex>
-                  <v-flex xs12 md7 lg7 ml-4>
-                    <div class="subheading mb-4">迦南资本致力于为社会公益事业奉献自己的力量。公司控股股东李晓东先生在汶川地震时亲自带领团队入住灾区，为重建募集资金，与灾区同胞同甘共苦。</div>
-                    <div class="subheading mb-4">多年来，迦南人不忘初心，始终秉持无私、无畏的精神致力于社会公益事业，力所能及地奉献爱心。</div>
-                    <div class="subheading mb-4">从四川什邡灾后重建让特殊孩子和残疾人士都能接受现代化教育，到上海真爱梦想公益基金会让孩子自信、从容、有尊严地成长。迦南公益，一直在路上。</div>
+                  <v-flex xs1 md1 lg1></v-flex>
+                  <v-flex xs12 md7 lg7>
+                    <div class="subheading mb-3">迦南资本致力于为社会公益事业奉献自己的力量。公司控股股东李晓东先生在汶川地震时亲自带领团队入住灾区，为重建募集资金，与灾区同胞同甘共苦。</div>
+                    <div class="subheading mb-3">多年来，迦南人不忘初心，始终秉持无私、无畏的精神致力于社会公益事业，力所能及地奉献爱心。</div>
+                    <div class="subheading mb-3">从四川什邡灾后重建让特殊孩子和残疾人士都能接受现代化教育，到上海真爱梦想公益基金会让孩子自信、从容、有尊严地成长。迦南公益，一直在路上。</div>
                   </v-flex>
-                  <v-flex xs12 md5 lg5 text-xs-center>
+                  <v-flex xs3 md3 lg5 text-xs-center>
                     <div class="display-1">公益与回馈</div>
                   </v-flex>
                 </v-layout>
@@ -187,18 +187,18 @@
           <v-card>
             <v-img
               class="white--text"
-              height="300px"
+              height="450px"
               :src="require('@/assets/home/1_22.jpg')"
             >
               <v-container fill-height fluid>
                 <v-layout fill-height align-center>
-                  <v-flex xs12 md5 lg5 text-xs-center>
+                  <v-flex xs3 md5 lg5 text-xs-center>
                     <div class="display-1">荣誉</div>
                   </v-flex>
                   <v-flex xs12 md7 lg7>
                     <div class="subheading mb-4">迦南资本是首批注册于上海自贸区的资产管理公司，并在中国证券基金业协会备案，成为开展私募证券投资、股权投资、创业投资等私募基金业务的金融机构，在第四届全球房地产金融峰会中获“2015年度最佳创新实践海外基金公司”。</div>
                   </v-flex>
-                  <v-flex xs12 md1 lg1></v-flex>
+                  <v-flex xs1 md1 lg1></v-flex>
                 </v-layout>
               </v-container>
             </v-img>
@@ -236,15 +236,15 @@
 export default {
   data() {
     return {
-      dialog: true
+      dialog: true,
     };
   },
   methods: {
     closeWindow() {
       window.location.href = 'about:blank';
       window.close();
-    }
-  }
+    },
+  },
 };
 </script>
 

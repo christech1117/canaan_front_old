@@ -7,7 +7,11 @@
             <v-img :src="require('@/assets/fund/3_11.jpg')" :aspect-ratio="16/9"></v-img>
             <v-card-title primary-title>
               <div>
-                <div class="title mb-2">精品住宿</div>
+                <div class="headline mb-2">
+                  <img
+                    style="width: 15px; margin: 0 10px 0 0;"
+                    :src="require('@/assets/fund/diamond_icon.png')" />精品住宿
+                </div>
                 <div class="body-1">两大精品系列双星闪耀</div>
                 <div class="body-1">Canaan Lifestyle-温馨、亲子、休闲，自由的大空间全配套住宿</div>
                 <div class="body-1">Canaan Boutique-奢华、时尚、高端，核心地段的精品酒店公寓</div>
@@ -21,7 +25,11 @@
 
             <v-card-title primary-title>
               <div>
-                <div class="title mb-2">主题农场</div>
+                <div class="headline mb-2">
+                  <img
+                    style="width: 15px; margin: 0 10px 0 0;"
+                    :src="require('@/assets/fund/diamond_icon.png')" />主题农场
+                </div>
                 <div class="body-1">农业土地整体规划及一级开发，农业生态园区打造，服务式庄园理念为古宅再添新彩</div>
               </div>
             </v-card-title>
@@ -33,7 +41,11 @@
 
             <v-card-title primary-title>
               <div>
-                <div class="title mb-2">土地投资</div>
+                <div class="headline mb-2">
+                  <img
+                    style="width: 15px; margin: 0 10px 0 0;"
+                    :src="require('@/assets/fund/diamond_icon.png')" />土地投资
+                </div>
                 <div class="body-1">多年土地投资积淀，利用改性、分割及开发申请方式将使传统安全稳定的土地投资具备实现高收益的可能</div>
               </div>
             </v-card-title>
@@ -45,7 +57,11 @@
 
             <v-card-title primary-title>
               <div>
-                <div class="title mb-2">科技创投</div>
+                <div class="headline mb-2">
+                  <img
+                    style="width: 15px; margin: 0 10px 0 0;"
+                    :src="require('@/assets/fund/diamond_icon.png')" />科技创投
+                </div>
                 <div class="body-1">置身于无人驾驶和旅行助理机器人风投核心圈，做海外智慧度假的领航者</div>
               </div>
             </v-card-title>

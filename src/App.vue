@@ -41,7 +41,7 @@
       <v-spacer></v-spacer>
 
       </v-toolbar-title>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items class="hidden-sm-and-down header">
         <v-btn flat to="/">
          <img src="@/assets/logo.png" style="height:40px;width:120px">
         </v-btn>
@@ -94,12 +94,12 @@ export default {
       drawer: false,
       fixed: false,
       items: [
-        { icon: 'bubble_chart', title: '首页', path: '/' },
-        { icon: 'bubble_chart', title: '关于', path: '/about' },
-        { icon: 'bubble_chart', title: '海外资产配置', path: '/fund' },
-        { icon: 'bubble_chart', title: '海外资产运营', path: '/hotel' },
-        { icon: 'bubble_chart', title: '海外生活体验', path: '/travel' },
-        { icon: 'bubble_chart', title: '联系我们', path: '/contact' },
+        { icon: '', title: '首页', path: '/' },
+        { icon: '', title: '关于', path: '/about' },
+        { icon: '', title: '海外资产配置', path: '/fund' },
+        { icon: '', title: '海外资产运营', path: '/hotel' },
+        { icon: '', title: '海外生活体验', path: '/travel' },
+        { icon: '', title: '联系我们', path: '/contact' },
       ],
       miniVariant: false,
       right: true,
